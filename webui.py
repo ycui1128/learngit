@@ -33,13 +33,13 @@ if __name__ == "__main__":
     }
         
     with st.sidebar:
-        st.image(
-            os.path.join(
-                "img",
-                "logo-long-chatchat-trans-v2.png"
-            ),
-            use_column_width=True
-        )
+       # st.image(
+        #    os.path.join(
+         #       "img",
+          #      "logo-long-chatchat-trans-v2.png"
+           # ),
+           # use_column_width=True
+       # )
         options = list(pages)
         icons = [x["icon"] for x in pages.values()]
 
